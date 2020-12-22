@@ -1,0 +1,5 @@
+# From lambda expression
+
+f= lambda n: 1 if n==0 else n*f(n-1)
+r=f(5)
+print(r)
